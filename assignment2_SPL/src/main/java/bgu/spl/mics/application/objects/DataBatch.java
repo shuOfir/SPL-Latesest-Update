@@ -6,5 +6,13 @@ package bgu.spl.mics.application.objects;
  */
 
 public class DataBatch {
-    
+
+    enum Type {Text, Image, Tabular};
+
+    private Type type;
+
+    public DataBatch(Type type){
+        type=type;
+    }
+
 }

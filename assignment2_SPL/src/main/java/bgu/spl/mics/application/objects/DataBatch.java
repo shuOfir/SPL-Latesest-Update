@@ -5,9 +5,7 @@ package bgu.spl.mics.application.objects;
  * Add fields and methods to this class as you see fit (including public methods and constructors).
  */
 
-public class DataBatch {
-
-    enum Type {Text, Image, Tabular};
+public class DataBatch extends Data{
 
     private Type type;
 
